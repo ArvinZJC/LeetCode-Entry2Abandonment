@@ -1,6 +1,7 @@
 # LeetCode: Entry -> Abandonment
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d12ba0364be44917ac7388a3855f6f64)](https://www.codacy.com/gh/ArvinZJC/LeetCode-Entry2Abandonment/dashboard?utm_source=github.com&utm_medium=referral&utm_content=ArvinZJC/LeetCode-Entry2Abandonment&utm_campaign=Badge_Grade)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ArvinZJC/LeetCode-Entry2Abandonment)
 ![GitHub](https://img.shields.io/github/license/ArvinZJC/LeetCode-Entry2Abandonment)
 
 > 👨‍💻: Why doesn't beautiful code hit on me? 😵
