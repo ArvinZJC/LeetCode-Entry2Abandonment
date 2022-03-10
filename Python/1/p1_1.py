@@ -1,11 +1,11 @@
 """
 '''
-Description: the solution to Problem 1 - brute force
-Version: 1.0.1.20220213
+Description: Problem 1 (Two Sum) - Solution 1
+Version: 1.0.2.20220310
 Author: Arvin Zhao
 Date: 2022-02-10 21:25:31
 Last Editors: Arvin Zhao
-LastEditTime: 2022-02-13 11:49:15
+LastEditTime: 2022-03-10 13:53:19
 '''
 """
 
@@ -14,7 +14,7 @@ from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        """Time complexity: O(n_nums ^ 2), space complexity: O(1)."""
+        """Brute force: time complexity: O(n_nums ^ 2), space complexity: O(1)."""
 
         n_nums = len(nums)
 

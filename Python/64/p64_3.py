@@ -1,11 +1,11 @@
 """
 '''
-Description: the solution to Problem 64 - dynamic programming with space optimisation (using the original list)
-Version: 1.0.0.20220214
+Description: Problem 64 (Minimum Path Sum) - Solution 3
+Version: 1.0.1.20220310
 Author: Arvin Zhao
 Date: 2022-02-14 16:56:10
 Last Editors: Arvin Zhao
-LastEditTime: 2022-02-14 17:39:24
+LastEditTime: 2022-03-10 13:57:29
 '''
 """
 
@@ -14,7 +14,7 @@ from typing import List
 
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
-        """Time complexity: O(n_columns * n_rows), space complexity: O(1)."""
+        """Dynamic programming with space optimisation (using the original list): time complexity: O(n_columns * n_rows), space complexity: O(1)."""
 
         for i in range(len(grid)):
             for j in range(len(grid[0])):
