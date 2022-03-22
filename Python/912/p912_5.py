@@ -1,11 +1,11 @@
 """
 '''
 Description: Problem 912 (Sort an Array) - Solution 5
-Version: 1.0.0.20220319
+Version: 1.0.0.20220322
 Author: Arvin Zhao
 Date: 2022-03-19 14:59:30
 Last Editors: Arvin Zhao
-LastEditTime: 2022-03-19 15:36:57
+LastEditTime: 2022-03-22 19:37:56
 '''
 """
 

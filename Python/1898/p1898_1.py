@@ -1,11 +1,11 @@
 """
 '''
 Description: Problem 1898 (Maximum Number of Removable Characters) - Solution 1
-Version: 1.0.0.20220310
+Version: 1.0.0.20220322
 Author: Arvin Zhao
 Date: 2022-03-10 15:27:07
 Last Editors: Arvin Zhao
-LastEditTime: 2022-03-10 18:56:16
+LastEditTime: 2022-03-22 19:35:42
 '''
 """
 
@@ -15,7 +15,6 @@ from typing import List
 class Solution:
     def maximumRemovals(self, s: str, p: str, removable: List[int]) -> int:
         """Binary search: time complexity: O(n_s * log(n_s)), space complexity: O(n_s)."""
-
         left = 0
         n_p = len(p)
         n_s = len(s)

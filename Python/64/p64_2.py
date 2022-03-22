@@ -1,11 +1,11 @@
 """
 '''
 Description: Problem 64 (Minimum Path Sum) - Solution 2
-Version: 1.0.1.20220310
+Version: 1.0.1.20220322
 Author: Arvin Zhao
 Date: 2022-02-14 17:18:49
 Last Editors: Arvin Zhao
-LastEditTime: 2022-03-10 13:56:15
+LastEditTime: 2022-03-22 19:38:38
 '''
 """
 
@@ -15,7 +15,6 @@ from typing import List
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         """Dynamic programming with space optimisation (storing the last row results only): time complexity: O(n_columns * n_rows), space complexity: O(n_columns)."""
-
         n_columns = len(grid[0])
         dp = [0] * n_columns  # Dynamic programming.
 
